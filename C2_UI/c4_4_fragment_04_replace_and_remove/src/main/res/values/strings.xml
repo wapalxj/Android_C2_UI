@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">c4_4_fragment_04_replace_and_remove</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_life_fragment">LifeFragment</string>
+</resources>

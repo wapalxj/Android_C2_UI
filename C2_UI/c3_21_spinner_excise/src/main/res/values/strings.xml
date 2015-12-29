@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">c3_21_spinner_excise</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinner">vnix</string>
+</resources>

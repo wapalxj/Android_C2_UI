@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">c3_39_tabhostandtabwidget</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="bg1">#0fc7cc</color>
+    <color name="bg2">#cc6f0c</color>
+</resources>

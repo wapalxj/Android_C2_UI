@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/C3_0_UI.iml" filepath="$PROJECT_DIR$/C3_0_UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aChartEngineDemo/aChartEngineDemo.iml" filepath="$PROJECT_DIR$/aChartEngineDemo/aChartEngineDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.10_ui_drawable/c3.10_ui_drawable.iml" filepath="$PROJECT_DIR$/c3.10_ui_drawable/c3.10_ui_drawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.10_ui_drawable2_xml/c3.10_ui_drawable2_xml.iml" filepath="$PROJECT_DIR$/c3.10_ui_drawable2_xml/c3.10_ui_drawable2_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.11_9patch/c3.11_9patch.iml" filepath="$PROJECT_DIR$/c3.11_9patch/c3.11_9patch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.5_customui/c3.5_customui.iml" filepath="$PROJECT_DIR$/c3.5_customui/c3.5_customui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.9_ui_canvas/c3.9_ui_canvas.iml" filepath="$PROJECT_DIR$/c3.9_ui_canvas/c3.9_ui_canvas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_14_testview1/c3_14_testview1.iml" filepath="$PROJECT_DIR$/c3_14_testview1/c3_14_testview1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_14_textview1_excise/c3_14_textview1_excise.iml" filepath="$PROJECT_DIR$/c3_14_textview1_excise/c3_14_textview1_excise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_18_button/c3_18_button.iml" filepath="$PROJECT_DIR$/c3_18_button/c3_18_button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_18_button_excise/c3_18_button_excise.iml" filepath="$PROJECT_DIR$/c3_18_button_excise/c3_18_button_excise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_21_adapter/c3_21_adapter.iml" filepath="$PROJECT_DIR$/c3_21_adapter/c3_21_adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_21_spinner_excise/c3_21_spinner_excise.iml" filepath="$PROJECT_DIR$/c3_21_spinner_excise/c3_21_spinner_excise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_25_progressbar/c3_25_progressbar.iml" filepath="$PROJECT_DIR$/c3_25_progressbar/c3_25_progressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_26_seekbar/c3_26_seekbar.iml" filepath="$PROJECT_DIR$/c3_26_seekbar/c3_26_seekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_28_edittext/c3_28_edittext.iml" filepath="$PROJECT_DIR$/c3_28_edittext/c3_28_edittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_28_scrollview/c3_28_scrollview.iml" filepath="$PROJECT_DIR$/c3_28_scrollview/c3_28_scrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_30_listview/c3_30_listview.iml" filepath="$PROJECT_DIR$/c3_30_listview/c3_30_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_30_listview2/c3_30_listview2.iml" filepath="$PROJECT_DIR$/c3_30_listview2/c3_30_listview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_33_listview3_cursor/c3_33_listview3_cursor.iml" filepath="$PROJECT_DIR$/c3_33_listview3_cursor/c3_33_listview3_cursor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_35_expanablelistview/c3_35_expanablelistview.iml" filepath="$PROJECT_DIR$/c3_35_expanablelistview/c3_35_expanablelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_37_gridview/c3_37_gridview.iml" filepath="$PROJECT_DIR$/c3_37_gridview/c3_37_gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_38_scrollview/c3_38_scrollview.iml" filepath="$PROJECT_DIR$/c3_38_scrollview/c3_38_scrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_39_tabhostandtabwidget/c3_39_tabhostandtabwidget.iml" filepath="$PROJECT_DIR$/c3_39_tabhostandtabwidget/c3_39_tabhostandtabwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_40_webview_and_imageview/c3_40_webview_and_imageview.iml" filepath="$PROJECT_DIR$/c3_40_webview_and_imageview/c3_40_webview_and_imageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_42_imageswitcher/c3_42_imageswitcher.iml" filepath="$PROJECT_DIR$/c3_42_imageswitcher/c3_42_imageswitcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_43_datepicker/c3_43_datepicker.iml" filepath="$PROJECT_DIR$/c3_43_datepicker/c3_43_datepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_44_layout/c3_44_layout.iml" filepath="$PROJECT_DIR$/c3_44_layout/c3_44_layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_44_layout_excise/c3_44_layout_excise.iml" filepath="$PROJECT_DIR$/c3_44_layout_excise/c3_44_layout_excise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_52_menu/c3_52_menu.iml" filepath="$PROJECT_DIR$/c3_52_menu/c3_52_menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_55_dialog/c3_55_dialog.iml" filepath="$PROJECT_DIR$/c3_55_dialog/c3_55_dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_59_notification/c3_59_notification.iml" filepath="$PROJECT_DIR$/c3_59_notification/c3_59_notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_62_style/c3_62_style.iml" filepath="$PROJECT_DIR$/c3_62_style/c3_62_style.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_65_self_define/c3_65_self_define.iml" filepath="$PROJECT_DIR$/c3_65_self_define/c3_65_self_define.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_65_self_define_2/c3_65_self_define_2.iml" filepath="$PROJECT_DIR$/c3_65_self_define_2/c3_65_self_define_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_13_communicating/c4_13_communicating.iml" filepath="$PROJECT_DIR$/c4_13_communicating/c4_13_communicating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_18_communitating2_listfragment/c4_18_communitating2_listfragment.iml" filepath="$PROJECT_DIR$/c4_18_communitating2_listfragment/c4_18_communitating2_listfragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_1_fragment/c4_1_fragment.iml" filepath="$PROJECT_DIR$/c4_1_fragment/c4_1_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_1_fragment_excise/c4_1_fragment_excise.iml" filepath="$PROJECT_DIR$/c4_1_fragment_excise/c4_1_fragment_excise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_4_fragment_04_replace_and_remove/c4_4_fragment_04_replace_and_remove.iml" filepath="$PROJECT_DIR$/c4_4_fragment_04_replace_and_remove/c4_4_fragment_04_replace_and_remove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_7_dialog_fragment/c4_7_dialog_fragment.iml" filepath="$PROJECT_DIR$/c4_7_dialog_fragment/c4_7_dialog_fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_07_imageswicher/c5_07_imageswicher.iml" filepath="$PROJECT_DIR$/c5_07_imageswicher/c5_07_imageswicher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_10_cardview/c5_10_cardview.iml" filepath="$PROJECT_DIR$/c5_10_cardview/c5_10_cardview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_11_viewflipper/c5_11_viewflipper.iml" filepath="$PROJECT_DIR$/c5_11_viewflipper/c5_11_viewflipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_12_gesturedetector/c5_12_gesturedetector.iml" filepath="$PROJECT_DIR$/c5_12_gesturedetector/c5_12_gesturedetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_13_viewflipper_gesturedetector/c5_13_viewflipper_gesturedetector.iml" filepath="$PROJECT_DIR$/c5_13_viewflipper_gesturedetector/c5_13_viewflipper_gesturedetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_14_actionbar/c5_14_actionbar.iml" filepath="$PROJECT_DIR$/c5_14_actionbar/c5_14_actionbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_15_webview/c5_15_webview.iml" filepath="$PROJECT_DIR$/c5_15_webview/c5_15_webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_1_swiprefreshlayout/c5_1_swiprefreshlayout.iml" filepath="$PROJECT_DIR$/c5_1_swiprefreshlayout/c5_1_swiprefreshlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_1_swiprefreshlayout_2/c5_1_swiprefreshlayout_2.iml" filepath="$PROJECT_DIR$/c5_1_swiprefreshlayout_2/c5_1_swiprefreshlayout_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_5/c5_5.iml" filepath="$PROJECT_DIR$/c5_5/c5_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c5_9_gridview/c5_9_gridview.iml" filepath="$PROJECT_DIR$/c5_9_gridview/c5_9_gridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c900_excise_chartroom/c900_excise_chartroom.iml" filepath="$PROJECT_DIR$/c900_excise_chartroom/c900_excise_chartroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" filepath="$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" filepath="$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+    </modules>
+  </component>
+</project>

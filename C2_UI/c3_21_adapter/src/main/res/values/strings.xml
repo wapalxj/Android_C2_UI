@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">c3_21_Adapter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinner">vnix-spinner</string>
+    <string-array name="vnixspinner">
+        <item>Vero</item>
+        <item>Vnix</item>
+        <item>Alicc</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/btng"/>-->
+    <!--<item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/btno"/>-->
+    <!--<item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/btnb"/>-->
+    <!--<item android:drawable="@drawable/btnb"/>-->
+    <item android:state_pressed="true" android:drawable="@drawable/btno" /> <!-- pressed -->
+    <item android:drawable="@drawable/btng" /> <!-- default/unchecked -->
+</selector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:id="@android:id/background" android:drawable="@drawable/btnb">-->
+    <!--</item>-->
+
+    <!--<item android:id="@android:id/secondaryProgress" android:drawable="@drawable/btno">-->
+    <!--</item>-->
+
+    <!--<item android:id="@android:id/progress" android:drawable="@drawable/btng">-->
+    <!--</item>-->
+    <!--当使用9-patch图片作为背景时必须用scale标签引用图片:when using 9-patch as bg,we must bundle drawbles with <scale>-->
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/btnb">
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <scale
+            android:drawable="@drawable/btno"
+            android:scaleWidth="100%" />
+    </item>
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@drawable/btng"
+            android:scaleWidth="100%" />
+    </item>
+</layer-list>  

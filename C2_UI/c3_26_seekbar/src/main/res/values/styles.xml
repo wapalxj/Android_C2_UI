@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="star_style" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/starxml</item>
+        <item name="android:numStars">5</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+</resources>

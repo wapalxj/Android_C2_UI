@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="add1" android:icon="@android:drawable/ic_delete"/>
+    <item android:title="add2" android:checkable="true" android:icon="@drawable/btnb" />
+    <item android:title="sub" android:icon="@drawable/btnb" >
+        <menu >
+            <item android:title="sub1" android:icon="@drawable/btncir2"/>
+            <item android:title="sun11" android:icon="@drawable/btncir3" />
+        </menu>
+    </item>
+</menu>

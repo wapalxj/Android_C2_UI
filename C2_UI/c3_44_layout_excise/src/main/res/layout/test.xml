@@ -1,0 +1,444 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAA"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/m1"
+        android:drawable="@drawable/m1"
+        android:padding="10dp"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/top_bg"
+            android:layout_weight="0.85"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                android:layout_weight="0.6">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView12"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收入总额:"
+                    android:textSize="20dp"
+                    android:textColor="#861900"
+                    android:layout_weight="1"
+                    android:id="@+id/textView12" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥0.00"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:id="@+id/textView13" />
+            </TableRow>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:src="@drawable/divider"
+                    />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支出总额:"
+                    android:textSize="20dp"
+                    android:textColor="#861900"
+                    android:layout_weight="1"
+                    android:id="@+id/textView14" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥0.00"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:id="@+id/textView15" />
+            </TableRow>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:src="@drawable/divider"
+                    />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="预算总额:"
+                        android:textSize="20dp"
+                        android:textColor="#861900"
+                        android:layout_weight="1"
+                        android:id="@+id/textView16" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥0.00"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:id="@+id/textView17" />
+                </TableRow>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_weight="0.32"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/screen" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="记一笔"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:id="@+id/textViewbtn"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/btn_jyb"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cent_bg">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView1"
+                    android:layout_gravity="center"
+                    android:layout_column="0"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/jt" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="今天"
+                        android:textSize="20dp"
+                        android:id="@+id/textView" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2015年11月4号"
+                        android:textColor="#8c8c8c"
+                        android:id="@+id/textView1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-￥0.00"
+                        android:textSize="20dp"
+                        android:id="@+id/textView2" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+￥0.00"
+                        android:textSize="20dp"
+                        android:textColor="#FF0000"
+                        android:id="@+id/textView3" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:layout_column="2"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/abc_btn_radio_to_on_mtrl_015" />
+
+
+            </TableRow>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/divider"
+                />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:layout_column="0"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/bzl" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本周"
+                        android:textSize="20dp"
+                        android:id="@+id/textView4" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11月1号-11月7号"
+                        android:textColor="#8c8c8c"
+                        android:id="@+id/textView5" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-￥0.00"
+                        android:textSize="20dp"
+                        android:id="@+id/textView6" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+￥0.00"
+                        android:textSize="20dp"
+                        android:textColor="#FF0000"
+                        android:id="@+id/textView7" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:layout_column="2"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/abc_btn_radio_to_on_mtrl_015" />
+            </TableRow>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/divider"
+                />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:layout_column="0"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/byl" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="本月"
+                        android:textSize="20dp"
+                        android:id="@+id/textView8" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11月1号-11月30号"
+                        android:textColor="#8c8c8c"
+                        android:id="@+id/textView9" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_column="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-￥0.00"
+                        android:textSize="20dp"
+                        android:id="@+id/textView10" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+￥0.00"
+                        android:textSize="20dp"
+                        android:textColor="#FF0000"
+                        android:id="@+id/textView11" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:layout_column="2"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center"
+                    android:src="@drawable/abc_btn_radio_to_on_mtrl_015" />
+            </TableRow>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@drawable/divider"
+                />
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bot_bg"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_weight="0.15">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView7"
+            android:layout_weight="0.2"
+            android:src="@drawable/ls_xml"
+            android:background="@android:color/transparent"
+             />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView8"
+            android:layout_weight="0.2"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/zh_xml"
+            android:background="@android:color/transparent"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:layout_weight="0.2"
+            android:src="@drawable/abc_scrubber_control_to_pressed_mtrl_005" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView10"
+            android:layout_weight="0.2"
+            android:src="@drawable/abc_ic_menu_cut_mtrl_alpha" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:layout_weight="0.2"
+            android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+    </LinearLayout>
+</LinearLayout>

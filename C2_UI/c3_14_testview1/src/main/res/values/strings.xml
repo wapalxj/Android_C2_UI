@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">c3_14_TestView1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">no data</string>
+    <string name="title_activity_pao_ma_deng">paoMaDeng</string>
+</resources>

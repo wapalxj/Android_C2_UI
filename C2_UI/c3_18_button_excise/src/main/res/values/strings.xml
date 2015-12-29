@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">c3_18_button_excise</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_excise1__xml">Excise1_XML</string>
+</resources>

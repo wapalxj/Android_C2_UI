@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.c3_52_menu.Context_Menu">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/F:/myworks/Androidstudio/maizi_android/C3/C2_3_14_Wiget/C2_3_14_Wiget/c3_52_menu/src/main/res/menu/menu_context__menu.xml -->
