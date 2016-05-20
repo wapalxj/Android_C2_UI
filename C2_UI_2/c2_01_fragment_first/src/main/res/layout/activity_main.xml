@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="ui2.com.c2_01_fragment_first.MainActivity">
+
+    <!--静态方式-->
+    <!--<fragment-->
+        <!--android:id="@+id/f1"-->
+        <!--android:layout_weight="1"-->
+        <!--android:name="ui2.com.c2_01_fragment_first.ContactFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--tools:layout="@layout/fragment_contact" />-->
+    <!--<fragment-->
+        <!--android:id="@+id/f2"-->
+        <!--android:layout_weight="1"-->
+        <!--android:name="ui2.com.c2_01_fragment_first.DiscoveryFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--tools:layout="@layout/fragment_discovery" />-->
+    <!--<fragment-->
+        <!--android:id="@+id/f3"-->
+        <!--android:layout_weight="1"-->
+        <!--android:name="ui2.com.c2_01_fragment_first.WxFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--tools:layout="@layout/fragment_wx" />-->
+
+    <!--动态方式-->
+    <FrameLayout
+        android:id="@+id/f1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <FrameLayout
+        android:id="@+id/f2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <FrameLayout
+        android:id="@+id/f3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

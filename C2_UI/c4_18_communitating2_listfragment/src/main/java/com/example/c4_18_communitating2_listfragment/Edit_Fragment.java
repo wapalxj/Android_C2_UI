@@ -17,9 +17,11 @@ import android.widget.Toast;
 public class Edit_Fragment extends Fragment {
     EditText editText;
     AddItem addItem;
+
     public interface AddItem{
         void add(String item);
     }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

@@ -12,7 +12,7 @@
         android:layout_height="230dp"
         android:layout_gravity="center_horizontal"
         android:background="#bf3d03"
-        android:drawable="@drawable/m1"
+        android:drawable="@mipmap/m1"
         android:padding="10dp"
         android:layout_weight="0.4">
 
@@ -131,7 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
-                android:background="@drawable/screen" />
+                android:background="@mipmap/screen" />
         </LinearLayout>
 
         <TextView
@@ -176,7 +176,7 @@
                     android:layout_gravity="center"
                     android:layout_column="0"
                     android:layout_weight="0.1"
-                    android:src="@drawable/jt" />
+                    android:src="@mipmap/jt" />
 
                 <LinearLayout
                     android:orientation="vertical"

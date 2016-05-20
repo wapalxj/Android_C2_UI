@@ -15,6 +15,7 @@ public class DrawableView extends View {
         super(context);
         mbitmapDrawable=( BitmapDrawable)getResources().getDrawable(R.drawable.cap);
         mbitmapDrawable.setBounds(100,100,350,560);//drawable中必须要被调用的方法
+
     }
 
     @Override

@@ -11,8 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/m1"
-        android:drawable="@drawable/m1"
+        android:background="@mipmap/m1"
+        android:drawable="@mipmap/m1"
         android:padding="10dp"
         android:layout_weight="0.5">
 
@@ -133,7 +133,7 @@
                 android:id="@+id/imageView"
                 android:layout_weight="0.32"
                 android:layout_marginLeft="10dp"
-                android:background="@drawable/screen" />
+                android:background="@mipmap/screen" />
         </LinearLayout>
 
         <TextView
@@ -157,7 +157,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.35"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/cent_bg">
+        android:background="@mipmap/cent_bg">
 
 
         <TableLayout
@@ -180,7 +180,7 @@
                     android:layout_gravity="center"
                     android:layout_column="0"
                     android:layout_weight="0.1"
-                    android:src="@drawable/jt" />
+                    android:src="@mipmap/jt" />
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -396,7 +396,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/bot_bg"
+        android:background="@mipmap/bot_bg"
         android:layout_gravity="center_horizontal"
         android:gravity="center_vertical"
         android:layout_weight="0.15">
