@@ -1,1 +1,2 @@
-include ':app', ':c2_01_fragment_first', ':c2_02_fragment_weixin', ':c2_03_fragment_v4_package', ':c2_04_fragment_life', ':c2_05_fragment_communication', ':c9_an5.0_01_toolbar'
+include ':app', ':c2_01_fragment_first', ':c2_02_fragment_weixin', ':c2_03_fragment_v4_package', ':c2_04_fragment_life', ':c2_05_fragment_communication', ':c9_an5.0_01_toolbar', ':c2_06_listview', ':c2_07_dialog', ':C0_internationalization'
+include ':apiDemos'

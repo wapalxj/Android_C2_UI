@@ -8,24 +8,32 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/C0_internationalization" />
+            <option value="$PROJECT_DIR$/apiDemos" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/c2_01_fragment_first" />
             <option value="$PROJECT_DIR$/c2_02_fragment_weixin" />
             <option value="$PROJECT_DIR$/c2_03_fragment_v4_package" />
             <option value="$PROJECT_DIR$/c2_04_fragment_life" />
             <option value="$PROJECT_DIR$/c2_05_fragment_communication" />
+            <option value="$PROJECT_DIR$/c2_06_listview" />
+            <option value="$PROJECT_DIR$/c2_07_dialog" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/C0_internationalization" />
+            <option value="$PROJECT_DIR$/apiDemos" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/c2_01_fragment_first" />
             <option value="$PROJECT_DIR$/c2_02_fragment_weixin" />
             <option value="$PROJECT_DIR$/c2_03_fragment_v4_package" />
             <option value="$PROJECT_DIR$/c2_04_fragment_life" />
             <option value="$PROJECT_DIR$/c2_05_fragment_communication" />
+            <option value="$PROJECT_DIR$/c2_06_listview" />
+            <option value="$PROJECT_DIR$/c2_07_dialog" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
           </set>
         </option>
