@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/C2_UI_3_Media.iml" filepath="$PROJECT_DIR$/C2_UI_3_Media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_01_load_image/c2_hm_01_load_image.iml" filepath="$PROJECT_DIR$/c2_hm_01_load_image/c2_hm_01_load_image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_02_scale/c2_hm_02_scale.iml" filepath="$PROJECT_DIR$/c2_hm_02_scale/c2_hm_02_scale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_03_translate/c2_hm_03_translate.iml" filepath="$PROJECT_DIR$/c2_hm_03_translate/c2_hm_03_translate.iml" />
+    </modules>
+  </component>
+</project>

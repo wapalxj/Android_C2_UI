@@ -18,7 +18,18 @@
             <option value="$PROJECT_DIR$/c2_05_fragment_communication" />
             <option value="$PROJECT_DIR$/c2_06_listview" />
             <option value="$PROJECT_DIR$/c2_07_dialog" />
+            <option value="$PROJECT_DIR$/c2_08_notification" />
+            <option value="$PROJECT_DIR$/c2_08_notification2_pendingIntent" />
+            <option value="$PROJECT_DIR$/c2_09" />
+            <option value="$PROJECT_DIR$/c2_10_电话窃听" />
+            <option value="$PROJECT_DIR$/c3_self_01_viewpager" />
+            <option value="$PROJECT_DIR$/c3_self_02_youku_menu" />
+            <option value="$PROJECT_DIR$/c3_self_03_spinner" />
+            <option value="$PROJECT_DIR$/c3_self_04_toggleview" />
+            <option value="$PROJECT_DIR$/c3_self_05_slidemenu" />
+            <option value="$PROJECT_DIR$/c3_self_06_swipedelete" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
+            <option value="$PROJECT_DIR$/qQSmileDemo" />
           </set>
         </option>
         <option name="myModules">
@@ -34,7 +45,18 @@
             <option value="$PROJECT_DIR$/c2_05_fragment_communication" />
             <option value="$PROJECT_DIR$/c2_06_listview" />
             <option value="$PROJECT_DIR$/c2_07_dialog" />
+            <option value="$PROJECT_DIR$/c2_08_notification" />
+            <option value="$PROJECT_DIR$/c2_08_notification2_pendingIntent" />
+            <option value="$PROJECT_DIR$/c2_09" />
+            <option value="$PROJECT_DIR$/c2_10_电话窃听" />
+            <option value="$PROJECT_DIR$/c3_self_01_viewpager" />
+            <option value="$PROJECT_DIR$/c3_self_02_youku_menu" />
+            <option value="$PROJECT_DIR$/c3_self_03_spinner" />
+            <option value="$PROJECT_DIR$/c3_self_04_toggleview" />
+            <option value="$PROJECT_DIR$/c3_self_05_slidemenu" />
+            <option value="$PROJECT_DIR$/c3_self_06_swipedelete" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
+            <option value="$PROJECT_DIR$/qQSmileDemo" />
           </set>
         </option>
       </GradleProjectSettings>

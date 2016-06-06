@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vero.com.c3_self_05_slidemenu.MainActivity">
+
+    <vero.com.c3_self_05_slidemenu.SlideMenu
+        android:id="@+id/slideMenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <include layout="@layout/left"/>
+        <include layout="@layout/right"/>
+    </vero.com.c3_self_05_slidemenu.SlideMenu>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--外部-->
+        <RelativeLayout
+            android:id="@+id/rl_level3"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/level3">
+
+            <!--channel 1-->
+            <ImageView
+                android:id="@+id/channel1"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/channel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--channel 2-->
+            <ImageView
+                android:id="@+id/channel2"
+                android:layout_above="@+id/channel1"
+                android:layout_marginLeft="26dp"
+                android:src="@drawable/channel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--channel 3-->
+            <ImageView
+                android:id="@+id/channel3"
+                android:layout_above="@+id/channel2"
+                android:layout_marginLeft="56dp"
+                android:layout_marginBottom="-10dp"
+                android:src="@drawable/channel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--channel 4-->
+            <ImageView
+                android:id="@+id/channel4"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/channel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--channel 7-->
+            <ImageView
+                android:id="@+id/channel7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/channel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--channel 6-->
+            <ImageView
+                android:id="@+id/channel6"
+                android:layout_above="@+id/channel7"
+                android:layout_marginRight="26dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/channel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--channel 5-->
+            <ImageView
+                android:id="@+id/channel5"
+                android:layout_above="@+id/channel6"
+                android:layout_marginRight="66dp"
+                android:layout_marginBottom="-10dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/channel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <!--中间-->
+        <RelativeLayout
+            android:id="@+id/rl_level2"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/level2">
+            <!--search-->
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/icon_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--menu-->
+            <ImageView
+                android:id="@+id/l2_iv_menu"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--youku-->
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_myyouku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <!--内侧-->
+        <RelativeLayout
+            android:id="@+id/rl_level1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/level1">
+
+            <ImageView
+                android:id="@+id/l1_iv_home"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
