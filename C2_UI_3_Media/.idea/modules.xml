@@ -7,6 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/c2_hm_01_load_image/c2_hm_01_load_image.iml" filepath="$PROJECT_DIR$/c2_hm_01_load_image/c2_hm_01_load_image.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_hm_02_scale/c2_hm_02_scale.iml" filepath="$PROJECT_DIR$/c2_hm_02_scale/c2_hm_02_scale.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_hm_03_translate/c2_hm_03_translate.iml" filepath="$PROJECT_DIR$/c2_hm_03_translate/c2_hm_03_translate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_04_rotate/c2_hm_04_rotate.iml" filepath="$PROJECT_DIR$/c2_hm_04_rotate/c2_hm_04_rotate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_05_mirror/c2_hm_05_mirror.iml" filepath="$PROJECT_DIR$/c2_hm_05_mirror/c2_hm_05_mirror.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_06_color/c2_hm_06_color.iml" filepath="$PROJECT_DIR$/c2_hm_06_color/c2_hm_06_color.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_07_canvas/c2_hm_07_canvas.iml" filepath="$PROJECT_DIR$/c2_hm_07_canvas/c2_hm_07_canvas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_08_palette/c2_hm_08_palette.iml" filepath="$PROJECT_DIR$/c2_hm_08_palette/c2_hm_08_palette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_hm_09_swipe_clothes/c2_hm_09_swipe_clothes.iml" filepath="$PROJECT_DIR$/c2_hm_09_swipe_clothes/c2_hm_09_swipe_clothes.iml" />
     </modules>
   </component>
 </project>

@@ -12,6 +12,12 @@
             <option value="$PROJECT_DIR$/c2_hm_01_load_image" />
             <option value="$PROJECT_DIR$/c2_hm_02_scale" />
             <option value="$PROJECT_DIR$/c2_hm_03_translate" />
+            <option value="$PROJECT_DIR$/c2_hm_04_rotate" />
+            <option value="$PROJECT_DIR$/c2_hm_05_mirror" />
+            <option value="$PROJECT_DIR$/c2_hm_06_color" />
+            <option value="$PROJECT_DIR$/c2_hm_07_canvas" />
+            <option value="$PROJECT_DIR$/c2_hm_08_palette" />
+            <option value="$PROJECT_DIR$/c2_hm_09_swipe_clothes" />
           </set>
         </option>
         <option name="myModules">
@@ -21,6 +27,12 @@
             <option value="$PROJECT_DIR$/c2_hm_01_load_image" />
             <option value="$PROJECT_DIR$/c2_hm_02_scale" />
             <option value="$PROJECT_DIR$/c2_hm_03_translate" />
+            <option value="$PROJECT_DIR$/c2_hm_04_rotate" />
+            <option value="$PROJECT_DIR$/c2_hm_05_mirror" />
+            <option value="$PROJECT_DIR$/c2_hm_06_color" />
+            <option value="$PROJECT_DIR$/c2_hm_07_canvas" />
+            <option value="$PROJECT_DIR$/c2_hm_08_palette" />
+            <option value="$PROJECT_DIR$/c2_hm_09_swipe_clothes" />
           </set>
         </option>
       </GradleProjectSettings>

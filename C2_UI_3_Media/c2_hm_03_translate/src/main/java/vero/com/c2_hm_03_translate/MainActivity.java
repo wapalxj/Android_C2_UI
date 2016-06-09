@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btn_translate;
     private ImageView iv_src;
+    private ImageView iv_translate;
     Bitmap srcBitmap;
 
     @Override
@@ -23,19 +24,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String path = "mnt/sdcard/img_small_1.jpg";
         srcBitmap = BitmapFactory.decodeFile(path);
-        iv_src.setImageBitmap(srcBitmap);
         initView();
     }
 
     public void initView() {
         btn_translate = (Button) findViewById(R.id.btn_translate);
         iv_src = (ImageView) findViewById(R.id.iv_src);
+        iv_translate= (ImageView) findViewById(R.id.iv_translate);
+        iv_src.setImageBitmap(srcBitmap);
+        iv_translate.setImageBitmap(srcBitmap);
         btn_translate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 opts();
             }
         });
+
     }
 
     public void opts() {
@@ -50,6 +54,6 @@ public class MainActivity extends AppCompatActivity {
         matrix.setTranslate(50,50);
         //绘画
         canvas.drawBitmap(srcBitmap, matrix, paint);
-        iv_src.setImageBitmap(copyBitmap);
+        iv_translate.setImageBitmap(copyBitmap);
     }
 }

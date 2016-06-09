@@ -1,1 +1,2 @@
-include ':app', ':c2_hm_01_load_image', ':c2_hm_02_scale', ':c2_hm_03_translate'
+include ':app', ':c2_hm_01_load_image', ':c2_hm_02_scale', ':c2_hm_03_translate', ':c2_hm_04_rotate', ':c2_hm_05_mirror', ':c2_hm_06_color', ':c2_hm_07_canvas', ':c2_hm_08_palette'
+include ':c2_hm_09_swipe_clothes'

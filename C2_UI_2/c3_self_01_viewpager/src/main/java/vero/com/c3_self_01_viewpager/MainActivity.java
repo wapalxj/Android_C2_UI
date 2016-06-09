@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * 初始化item:类似于baseAdapter的getView()
-         * @param container
+         * @param container---->即mPager
          * @param position
          * @return
          */
@@ -137,9 +137,9 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * 销毁item
-         * @param container
+         * @param container---->即mPager
          * @param position
-         * @param object
+         * @param object---->需要移除的iv
          */
         @Override
         public void destroyItem(ViewGroup container, int position, Object object) {
