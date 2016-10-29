@@ -3,15 +3,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="G:\2016软件包\Allpackages\Software\Android\2.0\android-studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/aChartEngineDemo" />
             <option value="$PROJECT_DIR$/apiDemos" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/c3.10_ui_drawable" />
+            <option value="$PROJECT_DIR$/c3.10_ui_drawable1" />
             <option value="$PROJECT_DIR$/c3.10_ui_drawable2_xml" />
             <option value="$PROJECT_DIR$/c3.11_9patch" />
             <option value="$PROJECT_DIR$/c3.5_customui" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/c3_21_adapter" />
             <option value="$PROJECT_DIR$/c3_21_spinner_excise" />
             <option value="$PROJECT_DIR$/c3_25_progressbar" />
+            <option value="$PROJECT_DIR$/c3_25_progressbar2" />
             <option value="$PROJECT_DIR$/c3_26_seekbar" />
             <option value="$PROJECT_DIR$/c3_28_edittext" />
             <option value="$PROJECT_DIR$/c3_28_scrollview" />
@@ -69,70 +71,7 @@
             <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aChartEngineDemo" />
-            <option value="$PROJECT_DIR$/apiDemos" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/c3.10_ui_drawable" />
-            <option value="$PROJECT_DIR$/c3.10_ui_drawable2_xml" />
-            <option value="$PROJECT_DIR$/c3.11_9patch" />
-            <option value="$PROJECT_DIR$/c3.5_customui" />
-            <option value="$PROJECT_DIR$/c3.9_ui_canvas" />
-            <option value="$PROJECT_DIR$/c3_14_testview1" />
-            <option value="$PROJECT_DIR$/c3_14_textview1_excise" />
-            <option value="$PROJECT_DIR$/c3_18_button" />
-            <option value="$PROJECT_DIR$/c3_18_button_excise" />
-            <option value="$PROJECT_DIR$/c3_21_adapter" />
-            <option value="$PROJECT_DIR$/c3_21_spinner_excise" />
-            <option value="$PROJECT_DIR$/c3_25_progressbar" />
-            <option value="$PROJECT_DIR$/c3_26_seekbar" />
-            <option value="$PROJECT_DIR$/c3_28_edittext" />
-            <option value="$PROJECT_DIR$/c3_28_scrollview" />
-            <option value="$PROJECT_DIR$/c3_30_listview" />
-            <option value="$PROJECT_DIR$/c3_30_listview2" />
-            <option value="$PROJECT_DIR$/c3_33_listview3_cursor" />
-            <option value="$PROJECT_DIR$/c3_35_expanablelistview" />
-            <option value="$PROJECT_DIR$/c3_37_gridview" />
-            <option value="$PROJECT_DIR$/c3_38_scrollview" />
-            <option value="$PROJECT_DIR$/c3_39_tabhostandtabwidget" />
-            <option value="$PROJECT_DIR$/c3_40_webview_and_imageview" />
-            <option value="$PROJECT_DIR$/c3_42_imageswitcher" />
-            <option value="$PROJECT_DIR$/c3_43_datepicker" />
-            <option value="$PROJECT_DIR$/c3_44_layout" />
-            <option value="$PROJECT_DIR$/c3_44_layout_excise" />
-            <option value="$PROJECT_DIR$/c3_52_menu" />
-            <option value="$PROJECT_DIR$/c3_55_dialog" />
-            <option value="$PROJECT_DIR$/c3_59_notification" />
-            <option value="$PROJECT_DIR$/c3_62_style" />
-            <option value="$PROJECT_DIR$/c3_65_self_define" />
-            <option value="$PROJECT_DIR$/c3_65_self_define_2" />
-            <option value="$PROJECT_DIR$/c4_13_communicating" />
-            <option value="$PROJECT_DIR$/c4_18_communitating2_listfragment" />
-            <option value="$PROJECT_DIR$/c4_19_hm74_weixin" />
-            <option value="$PROJECT_DIR$/c4_1_fragment" />
-            <option value="$PROJECT_DIR$/c4_1_fragment_excise" />
-            <option value="$PROJECT_DIR$/c4_4_fragment_04_replace_and_remove" />
-            <option value="$PROJECT_DIR$/c4_7_dialog_fragment" />
-            <option value="$PROJECT_DIR$/c5_07_imageswicher" />
-            <option value="$PROJECT_DIR$/c5_10_cardview" />
-            <option value="$PROJECT_DIR$/c5_11_viewflipper" />
-            <option value="$PROJECT_DIR$/c5_12_gesturedetector" />
-            <option value="$PROJECT_DIR$/c5_13_viewflipper_gesturedetector" />
-            <option value="$PROJECT_DIR$/c5_14_actionbar" />
-            <option value="$PROJECT_DIR$/c5_15_webview" />
-            <option value="$PROJECT_DIR$/c5_1_swiprefreshlayout" />
-            <option value="$PROJECT_DIR$/c5_1_swiprefreshlayout_2" />
-            <option value="$PROJECT_DIR$/c5_5" />
-            <option value="$PROJECT_DIR$/c5_9_gridview" />
-            <option value="$PROJECT_DIR$/c900_excise_chartroom" />
-            <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/pullToRefreshListFragment" />
-            <option value="$PROJECT_DIR$/pullToRefreshViewPager" />
-            <option value="$PROJECT_DIR$/sample" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

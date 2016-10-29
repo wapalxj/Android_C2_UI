@@ -30,62 +30,40 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     class MyGesture extends GestureDetector.SimpleOnGestureListener{
         @Override
         public boolean onSingleTapUp(MotionEvent e) {
-            Log.i("ges","onSingleTapUp");
+            Log.i("ges","onSingleTapUp---up事件");
             return super.onSingleTapUp(e);
         }
 
         @Override
         public void onLongPress(MotionEvent e) {
-            Log.i("ges","onLongPress");
+            Log.i("ges","onLongPress---长按:手指按在持续一段时间，并且没有松开");
             super.onLongPress(e);
         }
 
         @Override
         public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
-            Log.i("ges","onScroll");
+            Log.i("ges","onScroll--- 滚动:手指在触摸屏上滑动");
             return super.onScroll(e1, e2, distanceX, distanceY);
         }
 
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-            Log.i("ges","onFling");
+            Log.i("ges","onFling----抛掷:手指在触摸屏上迅速移动，并松开的动作");
             return super.onFling(e1, e2, velocityX, velocityY);
         }
 
         @Override
         public void onShowPress(MotionEvent e) {
-            Log.i("ges","onShowPress");
+            Log.i("ges","onShowPress---按住:手指按在触摸屏上，时间范围在按下起效，在长按之前。");
             super.onShowPress(e);
         }
 
         @Override
         public boolean onDown(MotionEvent e) {
-            Log.i("ges","onDown");
+            Log.i("ges","onDown---down事件");
             return super.onDown(e);
         }
 
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
 

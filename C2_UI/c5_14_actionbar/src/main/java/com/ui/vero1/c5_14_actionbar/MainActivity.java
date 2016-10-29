@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 //隐藏ActionBar--此MainActivity需要继承自Activity
         ActionBar actionBar =this.getActionBar();
-        //        actionBar.hide();
+//        actionBar.hide();
 
         Button btn1=(Button)findViewById(R.id.btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -61,7 +61,6 @@ public class MainActivity extends Activity {
             @Override
             public boolean onQueryTextSubmit( String arg0 )
             {
-                // TODO Auto-generated method stub
                 Toast.makeText(MainActivity.this, searchView.getQuery() + "", Toast.LENGTH_SHORT).show();
                 return true ;
             }

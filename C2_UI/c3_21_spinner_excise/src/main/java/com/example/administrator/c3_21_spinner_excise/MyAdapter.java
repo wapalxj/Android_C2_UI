@@ -42,15 +42,26 @@ public class MyAdapter <T>extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        convertView=this.inflater.inflate(this.resource, null);
-        TextView textView=(TextView)convertView.findViewById(R.id.textView);
-        TextView textView2=(TextView)convertView.findViewById(R.id.textView2);
+        View view=null;
+        ViewHolder holder;
+        if (convertView==null){
+            view=inflater.inflate(this.resource, null);
+            holder=new ViewHolder();
+            holder.textView=(TextView)view.findViewById(R.id.textView);
+            holder.textView2=(TextView)view.findViewById(R.id.textView2);
+            view.setTag(holder);
+        }else {
+            view=convertView;
+            holder= (ViewHolder) view.getTag();
+        }
         User u=(User)getItem(position);
-        textView.setText(u.getName().toString());
-        textView2.setText(u.getAge()+"");
-
-
-        return convertView;
+        holder.textView.setText(u.getName().toString());
+        holder.textView2.setText(u.getAge()+"");
+        return view;
+    }
+    class ViewHolder{
+        TextView textView;
+        TextView textView2;
     }
 
 }

@@ -34,6 +34,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+/**
+ * 设置图片的N种方法
+ */
 //读取drawable
 public class MainActivity extends AppCompatActivity {
 
@@ -42,13 +45,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loadWebDrawable();
-//        loadLocal();
+
 
 //        loadSpan();
 //        loadCompound();
 //        loadCustomeView();
-//        loadDrawable();
+        loadHtmlDrawable();
+//        loadWebHtmlDrawable();
+//        loadHtmlLocal();
 //        loadOndraw();
     }
     public void loadOndraw(){
@@ -65,14 +69,15 @@ public class MainActivity extends AppCompatActivity {
         textView.setHeight(500);
         RelativeLayout r=new RelativeLayout(this);
 
-        r=(RelativeLayout) findViewById(R.id.main);//方法1：需要设置layout的id
+    //方法1：需要设置layout的id
+        r=(RelativeLayout) findViewById(R.id.main);
         r.addView(textView);
         //下面2行(设置margin)必须放在addView之后
         RelativeLayout.LayoutParams params = (RelativeLayout.LayoutParams)textView.getLayoutParams();
         params.setMargins(0, 50, 0, 0);
-//        setContentView(r);//方法2：或者这种不需要设置ID
+    //  setContentView(r);//方法2：或者这种不需要设置ID
     }
-    public void loadLocal(){
+    public void loadHtmlLocal(){
         TextView textView=(TextView)findViewById(R.id.tv1);
         textView.append(Html.fromHtml("<br/><p>hello I am from My PC!</p>"));
 
@@ -89,27 +94,29 @@ public class MainActivity extends AppCompatActivity {
         };
         textView.append(Html.fromHtml("<img src=\"file:///F:/myworks/me.jpg\"/>", imageGetter, null));//注意此行的引号
     }
-    public void loadDrawable(){
+    public void loadHtmlDrawable(){
         TextView textView=(TextView)findViewById(R.id.tv1);
         textView.append(Html.fromHtml("<br/><p>hello I am from HTML!</p>"));
         //不设置source,则可以将<img>的 src设置为空
-/*
-        Html.ImageGetter imageGetter=new Html.ImageGetter() {//drawable设置
-            @Override
-            public Drawable getDrawable(String source) {
 
-                BitmapDrawable bitmapDrawable=(BitmapDrawable)getResources().getDrawable(R.drawable.smalldp);
-                bitmapDrawable.setBounds(0, 0, 70, 85);
-                return bitmapDrawable;
-            }
-        };
-        Html.TagHandler tagHandler=new Html.TagHandler() {//标签解析
-            @Override
-            public void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) {
-                Toast.makeText(MainActivity.this,tag,Toast.LENGTH_SHORT).show();
-            }
-        };
-        textView.append(Html.fromHtml("<img src=''/>", imageGetter, tagHandler));*/
+//        Html.ImageGetter imageGetter=new Html.ImageGetter() {//drawable设置
+//            @Override
+//            public Drawable getDrawable(String source) {
+//
+//                BitmapDrawable bitmapDrawable=(BitmapDrawable)getResources().getDrawable(R.drawable.smalldp);
+//                bitmapDrawable.setBounds(0, 0, 70, 85);
+//                return bitmapDrawable;
+//            }
+//        };
+//        Html.TagHandler tagHandler=new Html.TagHandler() {//标签解析
+//            @Override
+//            public void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) {
+//                Toast.makeText(MainActivity.this,tag,Toast.LENGTH_SHORT).show();
+//            }
+//        };
+//        textView.append(Html.fromHtml("<img src=''/><br>end", imageGetter, tagHandler));
+
+
      //设置source:则要将img src设为正确的地址
         Html.ImageGetter imageGetter=new Html.ImageGetter() {//drawable设置
             @Override
@@ -122,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
         };
         textView.append(Html.fromHtml("<img src='"+R.drawable.yun+"'/>", imageGetter, null));//注意此行的引号
     }
-    public void loadWebDrawable(){
+    public void loadWebHtmlDrawable(){
         TextView textView =(TextView)findViewById(R.id.tv1);
         textView.append(Html.fromHtml("I am loading a img from Web:"));
         Html.ImageGetter imageGetter=new Html.ImageGetter() {//drawable设置
@@ -137,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                     return null;
                 }
+
                 bitmapDrawable.setBounds(0, 0, (int)(bitmapDrawable.getIntrinsicWidth()*0.2), (int)(bitmapDrawable.getIntrinsicHeight()*0.2));
                 return bitmapDrawable;
             }
@@ -192,25 +200,5 @@ public class MainActivity extends AppCompatActivity {
         ssb.setSpan(clickableSpan,4,15,Spannable.SPAN_EXCLUSIVE_INCLUSIVE);
         textView.append(ssb);
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

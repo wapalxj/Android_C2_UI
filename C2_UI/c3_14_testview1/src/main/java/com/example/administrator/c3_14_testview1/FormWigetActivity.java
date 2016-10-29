@@ -12,6 +12,7 @@ import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.ClickableSpan;
 import android.text.style.ImageSpan;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,7 +28,13 @@ public class FormWigetActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_wiget);
-        showTextView();
+        initView();
+//        showTextView();
+        showHtmlView();
+
+    }
+
+    private void initView() {
         Button button= (Button)findViewById(R.id.pmd);
         i=new Intent(FormWigetActivity.this,paoMaDeng.class);
         button.setOnClickListener(new View.OnClickListener() {
@@ -37,32 +44,12 @@ public class FormWigetActivity extends AppCompatActivity {
             }
         });
     }
+
+    /**
+     * //span将图片插入到文字之间
+     */
     private void showTextView(){
         TextView textView1=(TextView)findViewById(R.id.textview1);
-/*       textView1.append(Html.fromHtml("<br/>html:<br/><b>vero</b><p>vnix</p><p></p><a href=\"http://www.baidu.com\">baidu</a>"));
-//html设置图片
-
-        Html.ImageGetter imgGetter=new Html.ImageGetter() {
-            @Override
-            public Drawable getDrawable(String source) {//图片获取
-                if (source!=null) {
-                    BitmapDrawable bitmapDrawable = (BitmapDrawable) getResources().getDrawable(R.drawable.water);
-                    bitmapDrawable.setBounds(0, 0, bitmapDrawable.getIntrinsicWidth(), bitmapDrawable.getIntrinsicHeight());
-                    return bitmapDrawable;
-                }else {
-                    return  null;
-                }
-            }
-        };
-        Html.TagHandler tagHandler = new Html.TagHandler() {//标签解析
-            @Override
-            public void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) {
-                Toast.makeText(FormWigetActivity.this,tag, Toast.LENGTH_SHORT).show();
-            }
-        };
-        textView1.append(Html.fromHtml("<p>vnix1111111<img src=\"\"/></p>",imgGetter,tagHandler));//src必须要设置，可以空
-    */
-//span将图片插入到文字之间
         BitmapDrawable sp=(BitmapDrawable)getResources().getDrawable(R.drawable.water);
         sp.setBounds(0,0,70,85);
 
@@ -79,26 +66,36 @@ public class FormWigetActivity extends AppCompatActivity {
         textView1.setText(ssb);
     }
 
+    /**
+     * //html/设置图片
+     */
+    private void showHtmlView(){
+        TextView textView1=(TextView)findViewById(R.id.textview1);
+//        textView1.append(Html.fromHtml("" +
+//                "<br/>html:<br/><b>vero</b><p>vnix</p><p></p>" +
+//                "<a href=\"http://www.baidu.com\">baidu</a>"));
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_form_wiget, menu);
-        return true;
+        Html.ImageGetter imgGetter=new Html.ImageGetter() {
+            @Override
+            public Drawable getDrawable(String source) {//图片获取
+//                if (source!=null) {
+                    BitmapDrawable bitmapDrawable = (BitmapDrawable) getResources().getDrawable(R.drawable.starhalf);
+                    bitmapDrawable.setBounds(0, 0, bitmapDrawable.getIntrinsicWidth(), bitmapDrawable.getIntrinsicHeight());
+                    return bitmapDrawable;
+//                }else {
+//                    return  null;
+//                }
+            }
+        };
+
+        Html.TagHandler tagHandler = new Html.TagHandler() {//标签解析
+            @Override
+            public void handleTag(boolean opening, String tag, Editable output, XMLReader xmlReader) {
+                Toast.makeText(FormWigetActivity.this,tag, Toast.LENGTH_SHORT).show();
+            }
+        };
+
+        textView1.append(Html.fromHtml("<br><p>vnix1111111<img src=\"\"/><br><img src=\"\"/>22222</p>",imgGetter,tagHandler));//src必须要设置，可以空
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

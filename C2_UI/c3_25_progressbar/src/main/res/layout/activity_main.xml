@@ -1,13 +1,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:saund="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:orientation="vertical" tools:context=".MainActivity"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
     android:weightSum="1">
 
-    <TextView android:text="I am testing the progressBar" android:layout_width="wrap_content"
+    <TextView android:text="I am testing the progressBar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ff1123"
         android:textSize="20dp"
@@ -21,16 +26,17 @@
         android:layout_height="wrap_content"
         android:indeterminate="false"
         android:progressDrawable="@drawable/progressbar_horizontal_drawable"
+        android:indeterminateDrawable="@drawable/progressbar_horizontal_drawable"
         android:progress="40"
         android:secondaryProgress="60"
         android:focusable="true"
-        style="@android:style/Widget.ProgressBar.Horizontal"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:id="@+id/progressBar" />
 
     <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:indeterminate="false"
+        android:indeterminate="true"
         style="@style/mprogress_circle"
         android:indeterminateDuration="1200"
         android:layout_marginTop="20dip"
@@ -48,7 +54,16 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bar"
+        android:textAllCaps="false"
+        android:text="change"
         android:id="@+id/button" />
 
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:indeterminate="false"
+        android:progress="50"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
 </LinearLayout>

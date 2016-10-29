@@ -4,7 +4,7 @@
     android:orientation="vertical" tools:context=".MainActivity">
 
 
-    <!-- 静态创建-->
+    <!-- 静态创建:<fragment>或者父元素必须指定id-->
     <!--<fragment-->
         <!--android:name="com.example.vero1.c4_1_fragment.centerFragment"-->
         <!--android:layout_width="match_parent"-->

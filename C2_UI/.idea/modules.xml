@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/aChartEngineDemo/aChartEngineDemo.iml" filepath="$PROJECT_DIR$/aChartEngineDemo/aChartEngineDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/c3.10_ui_drawable/c3.10_ui_drawable.iml" filepath="$PROJECT_DIR$/c3.10_ui_drawable/c3.10_ui_drawable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3.10_ui_drawable1/c3.10_ui_drawable1.iml" filepath="$PROJECT_DIR$/c3.10_ui_drawable1/c3.10_ui_drawable1.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3.10_ui_drawable2_xml/c3.10_ui_drawable2_xml.iml" filepath="$PROJECT_DIR$/c3.10_ui_drawable2_xml/c3.10_ui_drawable2_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3.11_9patch/c3.11_9patch.iml" filepath="$PROJECT_DIR$/c3.11_9patch/c3.11_9patch.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3.5_customui/c3.5_customui.iml" filepath="$PROJECT_DIR$/c3.5_customui/c3.5_customui.iml" />
@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/c3_21_adapter/c3_21_adapter.iml" filepath="$PROJECT_DIR$/c3_21_adapter/c3_21_adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_21_spinner_excise/c3_21_spinner_excise.iml" filepath="$PROJECT_DIR$/c3_21_spinner_excise/c3_21_spinner_excise.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_25_progressbar/c3_25_progressbar.iml" filepath="$PROJECT_DIR$/c3_25_progressbar/c3_25_progressbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_25_progressbar2/c3_25_progressbar2.iml" filepath="$PROJECT_DIR$/c3_25_progressbar2/c3_25_progressbar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_26_seekbar/c3_26_seekbar.iml" filepath="$PROJECT_DIR$/c3_26_seekbar/c3_26_seekbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_28_edittext/c3_28_edittext.iml" filepath="$PROJECT_DIR$/c3_28_edittext/c3_28_edittext.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_28_scrollview/c3_28_scrollview.iml" filepath="$PROJECT_DIR$/c3_28_scrollview/c3_28_scrollview.iml" />

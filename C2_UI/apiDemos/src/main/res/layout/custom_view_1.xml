@@ -15,7 +15,7 @@
 -->
 
 <!-- Demonstrates defining custom views in a layout file. -->
-    <!--xmlns:app="http://schemas.android.com/apk/res/com.example.android.apis"-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res/com.example.android.apis"
         android:orientation="vertical"
