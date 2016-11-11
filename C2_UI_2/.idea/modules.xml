@@ -6,12 +6,16 @@
       <module fileurl="file://$PROJECT_DIR$/C2_UI_2.iml" filepath="$PROJECT_DIR$/C2_UI_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_00_edittext/c2_00_edittext.iml" filepath="$PROJECT_DIR$/c2_00_edittext/c2_00_edittext.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_01_fragment_first/c2_01_fragment_first.iml" filepath="$PROJECT_DIR$/c2_01_fragment_first/c2_01_fragment_first.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_02_fragment_weixin/c2_02_fragment_weixin.iml" filepath="$PROJECT_DIR$/c2_02_fragment_weixin/c2_02_fragment_weixin.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_03_fragment_v4_package/c2_03_fragment_v4_package.iml" filepath="$PROJECT_DIR$/c2_03_fragment_v4_package/c2_03_fragment_v4_package.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_04_fragment_life/c2_04_fragment_life.iml" filepath="$PROJECT_DIR$/c2_04_fragment_life/c2_04_fragment_life.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_05_fragment_communication/c2_05_fragment_communication.iml" filepath="$PROJECT_DIR$/c2_05_fragment_communication/c2_05_fragment_communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_06_listview/c2_06_listview.iml" filepath="$PROJECT_DIR$/c2_06_listview/c2_06_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_06_listview2_error/c2_06_listview2_error.iml" filepath="$PROJECT_DIR$/c2_06_listview2_error/c2_06_listview2_error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_06_listview_03_radio/c2_06_listview_03_radio.iml" filepath="$PROJECT_DIR$/c2_06_listview_03_radio/c2_06_listview_03_radio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_06_listview_04_ratingbar/c2_06_listview_04_ratingbar.iml" filepath="$PROJECT_DIR$/c2_06_listview_04_ratingbar/c2_06_listview_04_ratingbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_07_dialog/c2_07_dialog.iml" filepath="$PROJECT_DIR$/c2_07_dialog/c2_07_dialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_08_notification/c2_08_notification.iml" filepath="$PROJECT_DIR$/c2_08_notification/c2_08_notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_08_notification2_pendingIntent/c2_08_notification2_pendingIntent.iml" filepath="$PROJECT_DIR$/c2_08_notification2_pendingIntent/c2_08_notification2_pendingIntent.iml" />
@@ -24,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/c3_self_05_slidemenu/c3_self_05_slidemenu.iml" filepath="$PROJECT_DIR$/c3_self_05_slidemenu/c3_self_05_slidemenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_self_06_swipedelete/c3_self_06_swipedelete.iml" filepath="$PROJECT_DIR$/c3_self_06_swipedelete/c3_self_06_swipedelete.iml" />
       <module fileurl="file://$PROJECT_DIR$/c9_an5.0_01_toolbar/c9_an5.0_01_toolbar.iml" filepath="$PROJECT_DIR$/c9_an5.0_01_toolbar/c9_an5.0_01_toolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chart/chart.iml" filepath="$PROJECT_DIR$/chart/chart.iml" />
       <module fileurl="file://$PROJECT_DIR$/qQSmileDemo/qQSmileDemo.iml" filepath="$PROJECT_DIR$/qQSmileDemo/qQSmileDemo.iml" />
     </modules>
   </component>

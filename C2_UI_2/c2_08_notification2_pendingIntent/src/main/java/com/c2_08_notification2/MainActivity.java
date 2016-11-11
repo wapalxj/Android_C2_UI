@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent();
         intent.setAction(Intent.ACTION_CALL);
         intent.setData(Uri.parse("tel://112"));
-        PendingIntent pendingIntent=PendingIntent.getActivity(this,1,intent,PendingIntent.FLAG_ONE_SHOT);
+        PendingIntent pendingIntent=PendingIntent.getActivity(this,1,intent,PendingIntent.FLAG_UPDATE_CURRENT);
 
 
         Notification.Builder builder= new Notification.Builder(MainActivity.this)
-                .setContentTitle("my notification")
+                .setContentTitle("my notification2")
                 .setContentText("这里是文本")
                 .setWhen(System.currentTimeMillis())
                 .setSmallIcon(R.drawable.head)

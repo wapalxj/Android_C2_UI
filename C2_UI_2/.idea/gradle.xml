@@ -12,12 +12,16 @@
             <option value="$PROJECT_DIR$/C0_internationalization" />
             <option value="$PROJECT_DIR$/apiDemos" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/c2_00_edittext" />
             <option value="$PROJECT_DIR$/c2_01_fragment_first" />
             <option value="$PROJECT_DIR$/c2_02_fragment_weixin" />
             <option value="$PROJECT_DIR$/c2_03_fragment_v4_package" />
             <option value="$PROJECT_DIR$/c2_04_fragment_life" />
             <option value="$PROJECT_DIR$/c2_05_fragment_communication" />
             <option value="$PROJECT_DIR$/c2_06_listview" />
+            <option value="$PROJECT_DIR$/c2_06_listview2_error" />
+            <option value="$PROJECT_DIR$/c2_06_listview_03_radio" />
+            <option value="$PROJECT_DIR$/c2_06_listview_04_ratingbar" />
             <option value="$PROJECT_DIR$/c2_07_dialog" />
             <option value="$PROJECT_DIR$/c2_08_notification" />
             <option value="$PROJECT_DIR$/c2_08_notification2_pendingIntent" />
@@ -30,6 +34,7 @@
             <option value="$PROJECT_DIR$/c3_self_05_slidemenu" />
             <option value="$PROJECT_DIR$/c3_self_06_swipedelete" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
+            <option value="$PROJECT_DIR$/chart" />
             <option value="$PROJECT_DIR$/qQSmileDemo" />
           </set>
         </option>
