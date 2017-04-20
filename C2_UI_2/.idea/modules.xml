@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/C0_internationalization/C0_internationalization.iml" filepath="$PROJECT_DIR$/C0_internationalization/C0_internationalization.iml" />
       <module fileurl="file://$PROJECT_DIR$/C2_UI_2.iml" filepath="$PROJECT_DIR$/C2_UI_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C9_pagerSlidingTabStripDemo/C9_pagerSlidingTabStripDemo.iml" filepath="$PROJECT_DIR$/C9_pagerSlidingTabStripDemo/C9_pagerSlidingTabStripDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartExample/MPChartExample.iml" filepath="$PROJECT_DIR$/MPChartExample/MPChartExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aChartEngine/aChartEngine.iml" filepath="$PROJECT_DIR$/aChartEngine/aChartEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/apiDemos/apiDemos.iml" filepath="$PROJECT_DIR$/apiDemos/apiDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_00_edittext/c2_00_edittext.iml" filepath="$PROJECT_DIR$/c2_00_edittext/c2_00_edittext.iml" />
@@ -28,6 +32,8 @@
       <module fileurl="file://$PROJECT_DIR$/c3_self_05_slidemenu/c3_self_05_slidemenu.iml" filepath="$PROJECT_DIR$/c3_self_05_slidemenu/c3_self_05_slidemenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_self_06_swipedelete/c3_self_06_swipedelete.iml" filepath="$PROJECT_DIR$/c3_self_06_swipedelete/c3_self_06_swipedelete.iml" />
       <module fileurl="file://$PROJECT_DIR$/c9_an5.0_01_toolbar/c9_an5.0_01_toolbar.iml" filepath="$PROJECT_DIR$/c9_an5.0_01_toolbar/c9_an5.0_01_toolbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c9_hellochart/c9_hellochart.iml" filepath="$PROJECT_DIR$/c9_hellochart/c9_hellochart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c9_self_roundprogressbar/c9_self_roundprogressbar.iml" filepath="$PROJECT_DIR$/c9_self_roundprogressbar/c9_self_roundprogressbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/chart/chart.iml" filepath="$PROJECT_DIR$/chart/chart.iml" />
       <module fileurl="file://$PROJECT_DIR$/qQSmileDemo/qQSmileDemo.iml" filepath="$PROJECT_DIR$/qQSmileDemo/qQSmileDemo.iml" />
     </modules>

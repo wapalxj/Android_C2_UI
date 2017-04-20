@@ -3,8 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -20,21 +21,7 @@
             <option value="$PROJECT_DIR$/c2_hm_09_swipe_clothes" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/c2_hm_01_load_image" />
-            <option value="$PROJECT_DIR$/c2_hm_02_scale" />
-            <option value="$PROJECT_DIR$/c2_hm_03_translate" />
-            <option value="$PROJECT_DIR$/c2_hm_04_rotate" />
-            <option value="$PROJECT_DIR$/c2_hm_05_mirror" />
-            <option value="$PROJECT_DIR$/c2_hm_06_color" />
-            <option value="$PROJECT_DIR$/c2_hm_07_canvas" />
-            <option value="$PROJECT_DIR$/c2_hm_08_palette" />
-            <option value="$PROJECT_DIR$/c2_hm_09_swipe_clothes" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

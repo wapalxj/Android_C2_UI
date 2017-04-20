@@ -7,34 +7,57 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* ApiDemos.iml
-* README.txt
-* tests\
-* tests\build.properties
-* tests\gen\
-* tests\gen\com\
-* tests\gen\com\example\
-* tests\gen\com\example\android\
-* tests\gen\com\example\android\apis\
-* tests\gen\com\example\android\apis\tests\
-* tests\gen\com\example\android\apis\tests\BuildConfig.java
-* tests\gen\com\example\android\apis\tests\Manifest.java
-* tests\gen\com\example\android\apis\tests\R.java
-* tests\tests.iml
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:22.+
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:22.+]
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => apiDemos\src\main\AndroidManifest.xml
-* assets\ => apiDemos\src\main\assets\
-* res\ => apiDemos\src\main\res\
-* src\ => apiDemos\src\main\java\
-* src\com\example\android\apis\app\IRemoteService.aidl => apiDemos\src\main\aidl\com\example\android\apis\app\IRemoteService.aidl
-* src\com\example\android\apis\app\IRemoteServiceCallback.aidl => apiDemos\src\main\aidl\com\example\android\apis\app\IRemoteServiceCallback.aidl
-* src\com\example\android\apis\app\ISecondary.aidl => apiDemos\src\main\aidl\com\example\android\apis\app\ISecondary.aidl
-* tests\src\ => apiDemos\src\androidTest\java\
+* AndroidManifest.xml => c9_self_roundprogressbar\src\main\AndroidManifest.xml
+* assets\ => c9_self_roundprogressbar\src\main\assets
+* res\ => c9_self_roundprogressbar\src\main\res\
+* src\ => c9_self_roundprogressbar\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
 
 Next Steps:
 -----------

@@ -73,23 +73,23 @@ public class CauseActivity extends AppCompatActivity {
 
 
             //这里给item的button设置了点击监听事件
-//            holder.button.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    //这里toast出来的mStrData却不是点击的那一项
-//
-//                    Toast.makeText(CauseActivity.this, "您点击了-" + mStrData, Toast.LENGTH_LONG).show();
-//                }
-//            });
-
-            //解决
             holder.button.setOnClickListener(new View.OnClickListener() {
-                int pos=position;//将当前位置记录下来
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(CauseActivity.this, "您点击了-" + mStrings.get(pos), Toast.LENGTH_LONG).show();
+                    //这里toast出来的mStrData却不是点击的那一项
+
+                    Toast.makeText(CauseActivity.this, "您点击了-" + mStrData, Toast.LENGTH_LONG).show();
                 }
             });
+
+            //解决
+//            holder.button.setOnClickListener(new View.OnClickListener() {
+//                int pos=position;//将当前位置记录下来
+//                @Override
+//                public void onClick(View v) {
+//                    Toast.makeText(CauseActivity.this, "您点击了-" + mStrings.get(pos), Toast.LENGTH_LONG).show();
+//                }
+//            });
             return view;
         }
 

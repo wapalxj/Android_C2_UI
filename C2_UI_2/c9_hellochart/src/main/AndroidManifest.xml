@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="byd.com.c9_hellochart">
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity">
+        </activity>
+        <activity android:name=".BubbleChartActivity">
+        </activity>
+        <activity android:name=".ColumnChartActivity">
+        </activity>
+        <activity android:name=".ComboLineColumnChartActivity">
+        </activity>
+        <activity android:name=".GoodBadChartActivity">
+        </activity>
+        <activity android:name=".LineChartActivity">
+        </activity>
+        <activity android:name=".LineColumnDependencyActivity">
+        </activity>
+        <activity android:name=".PieChartActivity">
+        </activity>
+        <activity android:name=".PreviewColumnChartActivity">
+        </activity>
+        <activity android:name=".PreviewLineChartActivity">
+        </activity>
+        <activity android:name=".SpeedChartActivity">
+        </activity>
+        <activity android:name=".TempoChartActivity">
+        </activity>
+        <activity android:name=".ViewPagerChartsActivity">
+        </activity>
+
+    </application>
+
+</manifest>

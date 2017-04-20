@@ -5,11 +5,15 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="G:\2016软件包\Allpackages\Software\Android\2.0\android-studio\gradle\gradle-2.14.1" />
+        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/C0_internationalization" />
+            <option value="$PROJECT_DIR$/C9_pagerSlidingTabStripDemo" />
+            <option value="$PROJECT_DIR$/MPChartExample" />
+            <option value="$PROJECT_DIR$/MPChartLib" />
+            <option value="$PROJECT_DIR$/aChartEngine" />
             <option value="$PROJECT_DIR$/apiDemos" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/c2_00_edittext" />
@@ -34,6 +38,8 @@
             <option value="$PROJECT_DIR$/c3_self_05_slidemenu" />
             <option value="$PROJECT_DIR$/c3_self_06_swipedelete" />
             <option value="$PROJECT_DIR$/c9_an5.0_01_toolbar" />
+            <option value="$PROJECT_DIR$/c9_hellochart" />
+            <option value="$PROJECT_DIR$/c9_self_roundprogressbar" />
             <option value="$PROJECT_DIR$/chart" />
             <option value="$PROJECT_DIR$/qQSmileDemo" />
           </set>
